@@ -1,0 +1,19 @@
+.header{
+  background-color: var(--gray-800);
+  display: flex;
+  justify-content: center;
+  padding: 1.25rem 0;
+}
+.contentLogo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contentLogo img{
+  height: 2rem;
+}
+.contentLogo h1{
+  font-size: 1.5rem;
+  margin-left: 1rem;
+}
