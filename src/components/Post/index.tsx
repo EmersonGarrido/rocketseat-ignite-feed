@@ -16,7 +16,6 @@ const Post: React.FC = () => {
             <strong>Emerson Garrido</strong>
             <span>Fullstack</span>
           </div>
-
         </div>
         <time
           title="11 de maio de 2022 as 08:13"
@@ -30,19 +29,25 @@ const Post: React.FC = () => {
 
         <p>
           Acabei de subir mais um projeto no meu portifa. É um projeto que fiz
-          no NLW Return, evento da Rocketseat. O nome do projeto é DoctorCare
-          🚀
+          no NLW Return, evento da Rocketseat. O nome do projeto é DoctorCare 🚀
         </p>
         <p>
           <a href="">jane.design/doctorcare </a>
         </p>
 
         <p>
-          <a href="">#novoprojeto</a>{" "}
-          <a href="">#nlw</a>{" "}
+          <a href="">#novoprojeto</a> <a href="">#nlw</a>{" "}
           <a href="">#Rocketseat</a>
         </p>
       </div>
+
+      <form className={styles.commentForm}>
+        <strong>Deixe seu feedback</strong>
+        <textarea placeholder="Deixe seu comentário" />
+        <footer>
+          <button type="submit">Publicar</button>
+        </footer>
+      </form>
     </article>
   );
 };
