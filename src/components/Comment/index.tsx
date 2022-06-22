@@ -24,7 +24,7 @@ const Comment: React.FC = () => {
               </time>
             </div>
             <button title="Deletar cometario">
-              <Trash size={20} />
+              <Trash size={24} />
             </button>
           </header>
           <p>Muito bom Devon, parabéns!! 👏👏</p>
